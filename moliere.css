@@ -45,8 +45,7 @@
 .MusicMaster{
     color:aquamarine;
 }
-.table,
-th
+.table,th
 {
     color:rgb(67, 196, 16);
     border: solid slategray;
@@ -58,9 +57,12 @@ th
 }
 td{
     color:burlywood;
-    border: 200px black;
+    border:2px;
     text-align: center;
     margin: 50px;
     padding: 5px;
     background-color:blue;
+}
+tr:nth-child(even){
+    background-color: black;
 }
